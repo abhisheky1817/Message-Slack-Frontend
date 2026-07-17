@@ -6,7 +6,6 @@ export const Auth = ({ children }) => {
             className="h-[100vh] flex items-center justify-center bg-[var(--slack)]"
         >
             <div className="md:h-auto md:w-[420px]">
-                <SignupCard />
                 {children}
             </div>
 
